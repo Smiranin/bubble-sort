@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+	
+	<div id="container">
+		<div id="start-container">
+			<div class="title">Для сортировки введите числа разделяя их запятой.</div>
+			<form class="form">
+			<input type="text" name="form" id="sort" class="input" placeholder="например: 1,3,10,884,3,4"/>
+			<button type="button" class="btn btn-sort" onclick ="getArr()">Сортировать</button>
+			</form>
+			<div class="text">
+				Работа пузырьковой сортировки реализуется с помощью двух циклов. Первый цикл отвечает за количество проходов по массиву, исходя из количества элементов массива. Второй цикл отвечает, собственно за саму сортировку. Проходя по массиву и выталкивая самое большое число в конец массива. При каждом следующей итерации первого цикла. Количество итераций второго сокращается на количество уже отсортированных чисел(тех что уже протолкнуты в конец массива).
+			</div>
+		</div>
+		<div class="hide" id="end-container">
+			<div id = "res"></div>
+			<div class="btn-group">
+				<button class="btn" onclick="reset()">Сброс</button>
+				<button class="btn" id="btn">Вперед</button>
+			</div>
+	</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
