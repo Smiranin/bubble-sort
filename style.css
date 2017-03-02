@@ -1,0 +1,75 @@
+#container{
+    min-height: 300px;
+    width: 80%;
+    margin: 10% auto;
+    background-color: #eee;
+}
+#container .title{
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+#container .form{
+    width: 80%;
+    margin: 0 auto;
+}
+#container .form .input{
+    width: 80%;
+}
+.btn{
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #8c8c8c;
+}
+#container .form .btn-sort{
+    width: 18%;
+
+}
+#container .text{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3%;
+    line-height: 18px;
+}
+#container #res{
+    min-height:200px;
+    width:100%;
+    color: #fff;
+}
+#container #res  ul{
+    line-height: 200px;
+    text-align: center;
+    padding: 0;
+}
+#container #res  li{
+    background-color: #333;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+.btn-group{
+     text-align: center;
+}
+.btn-group .btn{
+    display: inline-block;
+    
+}
+#container #res .active{
+    background-color: #666666;
+}
+#container #res .end{
+    background-color: #003399;
+}
+#container #res .bulb{
+    background-color: #6699FF;
+}
+.hide{
+    display: none;
+}
